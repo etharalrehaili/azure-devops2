@@ -9,7 +9,7 @@ def hello(name, color):
         click.echo(click.style(f"Hello {name}!", fg="red"))
     else:
         click.echo(f"Your color is {color}!")
-        click.echo(click.style(f"Hello {name}!", fg=color))
+        click.echo(click.style(f"Hello {name}! Continuous Devlivery", fg=color))
 
 if __name__ == "__main__":
     hello()
